@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <link rel="stylesheet" href="02_01.4box-model.css">
+ 
+</head>
+<body>
+    
+
+    <!-- Navigation -->
+    <nav>
+        <h1>Learn CSS</h1>
+        <div class="menu">
+            
+            <a href="02_01.basic css.html">HOME</a>
+            <a href="02_01.1introduction.html">Introduction</a>
+            <a href="02_01.2selectors.html">Selectors</a>
+            <a href="02_01.3properties.html">Properties</a>
+            <a href="02_01.4box-model.html">Box Model</a>
+            <a href="02_01.5resources.html">Resources</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Understanding the CSS Box Model</h2>
+        <p>The CSS Box Model is a fundamental concept that defines how elements are structured and how their width, height, and position are calculated. Each HTML element is treated as a rectangular box, and the box model determines how these boxes are placed in relation to one another.</p>
+
+        <!-- Box Model Breakdown -->
+        <section id="box-model-explanation">
+            <h3>Box Model Breakdown</h3>
+            <p>Each box in CSS consists of the following parts:</p>
+            <ul>
+                <li><strong>Content</strong>: The actual content of the box, such as text or images. This is the innermost part of the box.</li>
+                <li><strong>Padding</strong>: Clears an area around the content. The padding is inside the border and is used to create space between the content and the border.</li>
+                <li><strong>Border</strong>: A border surrounding the padding (if any) and content. You can style the border with various properties such as color, thickness, and style.</li>
+                <li><strong>Margin</strong>: Clears space outside the border. The margin is used to create distance between the element and surrounding elements.</li>
+            </ul>
+            <p>Understanding how these four properties work together helps you control the layout of elements more effectively.</p>
+        </section>
+
+        <!-- Visual Representation of the Box Model -->
+        <section id="box-model-visual">
+            <h3>Visualizing the Box Model</h3>
+            <p>Here is a basic diagram of the CSS Box Model:</p>
+            <div class="box-model-visual">
+                <div class="content">Content</div>
+                <div class="padding">Padding</div>
+                <div class="border">Border</div>
+                <div class="margin">Margin</div>
+            </div>
+        </section>
+
+        <!-- Box Model Example -->
+        <section id="box-model-example">
+            <h3>Box Model Example</h3>
+            <p>Here’s an example of an element with padding, border, and margin applied using the CSS box model:</p>
+            <div class="box-example">
+                <p>This is an example box.</p>
+            </div>
+
+            <pre>
+                <code>
+                .box-example {
+                    width: 200px;
+                    height: 100px;
+                    padding: 20px;
+                    border: 5px solid #333;
+                    margin: 30px;
+                    background-color: lightblue;
+                }
+                </code>
+            </pre>
+        </section>
+
+        <!-- Box Model Properties Explanation -->
+        <section id="box-model-properties">
+            <h3>Box Model Properties</h3>
+            <ul>
+                <li><strong>width</strong>: Defines the content width of the box.</li>
+                <li><strong>height</strong>: Defines the content height of the box.</li>
+                <li><strong>padding</strong>: Adds space inside the box between the content and the border. You can specify padding for each side: padding-top, padding-right, padding-bottom, padding-left.</li>
+                <li><strong>border</strong>: Specifies the border surrounding the box, including its width, style (solid, dashed, etc.), and color.</li>
+                <li><strong>margin</strong>: Adds space outside the box, separating it from other elements. Similar to padding, you can specify different values for each side: margin-top, margin-right, margin-bottom, margin-left.</li>
+            </ul>
+        </section>
+
+        <!-- Box Model Box-Sizing -->
+        <section id="box-sizing">
+            <h3>Box-Sizing Property</h3>
+            <p>The <code>box-sizing</code> property is important when working with the box model because it alters the way the width and height are calculated. By default, the width and height only include the content area. With <code>box-sizing: border-box</code>, the padding and border are included within the width and height.</p>
+
+            <pre>
+                <code>
+                /* Default: width and height are only for content */
+                .box1 {
+                    width: 200px;
+                    height: 100px;
+                    padding: 20px;
+                    border: 5px solid #333;
+                }
+
+                /* Box-sizing: border-box includes padding and border within the width and height */
+                .box2 {
+                    width: 200px;
+                    height: 100px;
+                    padding: 20px;
+                    border: 5px solid #333;
+                    box-sizing: border-box;
+                }
+                </code>
+            </pre>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Learn Teach. All rights reserved. | <a href="02_01.basic css.html">Back to Basics</a></p>
+    </footer>
+
+</body>
+</html>

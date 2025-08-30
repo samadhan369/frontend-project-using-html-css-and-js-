@@ -1,4 +1,10 @@
- body {
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+body {
       margin: 0;
       font-family: Arial, sans-serif;
       line-height: 1.6;
@@ -96,4 +102,5 @@
         font-size: 0.8rem;
       }
     }
+
   

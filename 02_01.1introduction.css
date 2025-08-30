@@ -97,7 +97,7 @@ footer a:hover {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     nav h1 {
         font-size: 1.5em;
     }
@@ -116,5 +116,6 @@ footer a:hover {
     }
 
 }
+
 
 

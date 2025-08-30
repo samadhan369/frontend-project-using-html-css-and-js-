@@ -1,3 +1,9 @@
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
 body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -88,4 +94,5 @@ body {
 
         br {
             line-height: 30px;
+
         }

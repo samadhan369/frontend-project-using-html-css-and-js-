@@ -1,4 +1,10 @@
+@media (max-width: 600px) {
   body {
+    background-color: lightblue;
+  }
+}
+
+body {
       font-family: Arial, sans-serif;
       /* background-color: #4509ad; Background color */
       background-image: url('https://imageio.forbes.com/specials-images/imageserve/61d52d4e3a76ed81ac034ea8/The-10-Tech-Trends-That-Will-Transform-Our-World/960x0.jpg?height=399&width=711&fit=bounds');
@@ -115,4 +121,5 @@
 
     .form-container a:hover {
       text-decoration: underline;
+
     }

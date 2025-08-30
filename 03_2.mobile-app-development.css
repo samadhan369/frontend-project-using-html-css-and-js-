@@ -3,7 +3,6 @@
     background-color: lightblue;
   }
 }
-
 body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -12,7 +11,7 @@ body {
             color: #333;
         }
         
-        /* Header Styling */
+   
         header {
             background-color: #28a745;
             color: white;
@@ -35,7 +34,6 @@ body {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         
-        /* Features Section Styling */
         .features-section {
             margin-bottom: 30px;
         }
@@ -56,8 +54,7 @@ body {
             margin: 10px 0;
             color: #555;
         }
-        
-        /* Languages Section Styling */
+      
         .languages-list {
             display: flex;
             flex-wrap: wrap;
@@ -107,20 +104,16 @@ body {
             color: #555;
         }
         
-        /* Footer Styling */
+  
         footer {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   text-align: center;
-  padding: 5px; /* Reduced padding */
-  margin-top: 50px; /* Reduced top margin */
+  padding: 5px;
+  margin-top: 50px; 
   margin-bottom: 0;
-  font-size: 18px; /* Smaller font size */
+  font-size: 18px; 
 }
-
-
-
-
         footer a {
             color: #007BFF;
             text-decoration: none;
@@ -130,5 +123,6 @@ body {
             text-decoration: underline;
 
         }
+
 
 
